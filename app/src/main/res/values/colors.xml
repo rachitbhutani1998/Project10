@@ -3,4 +3,8 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="blue">#42a5f5</color>
+    <color name="inventory">#1b5e20</color>
+    <color name="quiz">#ffd600</color>
+    <color name="football">#4a148c</color>
 </resources>
