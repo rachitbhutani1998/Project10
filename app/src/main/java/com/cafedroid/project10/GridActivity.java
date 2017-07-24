@@ -1,9 +1,14 @@
 package com.cafedroid.project10;
 
+import android.app.Activity;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.GridView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -31,6 +36,18 @@ public class GridActivity extends AppCompatActivity {
         projectList.add(new Projects("Habit Tracker",R.drawable.ic_videogame_asset_white_24dp,R.color.habbit));
         projectList.add(new Projects("Inventory",R.drawable.ic_build_white_24dp,R.color.inventory));
         mAdapter=new GridAdapter(getApplicationContext(),projectList);
+        grid.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                switch (i){
+                    case 0:
+                        startActivity(new Intent(GridActivity.this,SquareOne.class));
+                        break;
+                    default:
+                        Toast.makeText(GridActivity.this, "No Data Exists", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
         grid.setAdapter(mAdapter);
         grid.setColumnWidth(width/2);
     }

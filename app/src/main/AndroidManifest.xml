@@ -19,7 +19,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".GridActivity" />
-        <activity android:name=".SquareOne"></activity>
+        <activity android:name=".SquareOne"
+            android:label="@string/square_one"/>
     </application>
 
 </manifest>

@@ -1,8 +1,7 @@
 package com.cafedroid.project10;
 
-/**
- * Created by rachit on 22/07/17.
- */
+
+import android.app.Activity;
 
 class Projects {
     private String mProjectName;
