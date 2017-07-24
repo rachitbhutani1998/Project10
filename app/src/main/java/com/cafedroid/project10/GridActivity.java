@@ -43,6 +43,9 @@ public class GridActivity extends AppCompatActivity {
                     case 0:
                         startActivity(new Intent(GridActivity.this,SquareOne.class));
                         break;
+                    case 1:
+                        startActivity(new Intent(GridActivity.this,FootballActivity.class));
+                        break;
                     default:
                         Toast.makeText(GridActivity.this, "No Data Exists", Toast.LENGTH_SHORT).show();
                 }

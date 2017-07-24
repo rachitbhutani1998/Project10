@@ -19,8 +19,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".GridActivity" />
-        <activity android:name=".SquareOne"
-            android:label="@string/square_one"/>
+        <activity
+            android:name=".SquareOne"
+            android:label="@string/square_one" />
+        <activity android:name=".FootballActivity"
+            android:label="@string/football"/>
     </application>
 
 </manifest>
