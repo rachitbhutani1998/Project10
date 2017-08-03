@@ -22,8 +22,11 @@
         <activity
             android:name=".SquareOne"
             android:label="@string/square_one" />
-        <activity android:name=".FootballActivity"
-            android:label="@string/football"/>
+        <activity
+            android:name=".FootballActivity"
+            android:label="@string/football" />
+        <activity android:name=".QuizActivity"
+            android:windowSoftInputMode="stateHidden"/>
     </application>
 
 </manifest>
