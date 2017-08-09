@@ -25,8 +25,16 @@
         <activity
             android:name=".FootballActivity"
             android:label="@string/football" />
-        <activity android:name=".QuizActivity"
-            android:windowSoftInputMode="stateHidden"/>
+        <activity
+            android:name=".QuizActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".ReportCard" />
+        <activity android:name="com.cafedroid.musicapp.MusicActivity" />
+        <activity android:name="com.cafedroid.musicapp.albums" />
+        <activity android:name="com.cafedroid.musicapp.artists" />
+        <activity android:name="com.cafedroid.musicapp.playlists" />
+        <activity android:name="com.cafedroid.musicapp.tracks" />
+        <activity android:name="com.cafedroid.musicapp.NowPlaying"></activity>
     </application>
 
 </manifest>

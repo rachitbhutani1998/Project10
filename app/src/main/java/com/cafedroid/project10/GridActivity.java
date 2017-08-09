@@ -10,6 +10,8 @@ import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.Toast;
 
+import com.cafedroid.musicapp.MusicActivity;
+
 import java.util.ArrayList;
 
 public class GridActivity extends AppCompatActivity {
@@ -48,6 +50,12 @@ public class GridActivity extends AppCompatActivity {
                         break;
                     case 2:
                         startActivity(new Intent(GridActivity.this,QuizActivity.class));
+                        break;
+                    case 3:
+                        startActivity(new Intent(GridActivity.this, MusicActivity.class));
+                        break;
+                    case 4:
+                        startActivity(new Intent(GridActivity.this,ReportCard.class));
                         break;
                     default:
                         Toast.makeText(GridActivity.this, "No Data Exists", Toast.LENGTH_SHORT).show();
