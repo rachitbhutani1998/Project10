@@ -50,5 +50,6 @@
     <string name="playlists">Playlist</string>
     <string name="albums">Album</string>
     <string name="player">Player</string>
-    <string name="home">Home</string>\
+    <string name="home">Home</string>
+    <string name="logo">logo</string>\
 </resources>
